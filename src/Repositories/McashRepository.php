@@ -10,8 +10,8 @@ use Mcash\Mpesa\Data\LoadConfig;
  * Class McashRepository
  * 
  * @category PHP
- * @package Mcash\Mpesa
- * @author Ayim Domnic <ayimdomnic@gmail.com>
+ * @package  Mcash\Mpesa
+ * @author   Ayim Domnic <ayimdomnic@gmail.com>
 */
 class McashRepository
 {

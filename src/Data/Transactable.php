@@ -6,8 +6,8 @@ namespace Mcash\Mpesa\Data;
  * Transactionable Interface
  * 
  * @category PHP
- * @package Mcash\Mpesa
- * @author Ayim Domnic <ayimdomnic@gmail.com>
+ * @package  Mcash\Mpesa
+ * @author   Ayim Domnic <ayimdomnic@gmail.com>
 */ 
 interface Transactable
 {

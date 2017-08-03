@@ -8,8 +8,8 @@ use Mcash\Mpesa\Repositories\McashRepository;
 
 /**
  * @category PHP
- * @package Mcash\Mpesa
- * @author Ayim Domnic <ayimdomnic@gmail.com>
+ * @package  Mcash\Mpesa
+ * @author   Ayim Domnic <ayimdomnic@gmail.com>
  */
 class Configuration implements LoadConfig
 {
