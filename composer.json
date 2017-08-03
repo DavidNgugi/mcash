@@ -17,7 +17,7 @@
 
     "autoload": {
         "psr-4": {
-            "DavidNgugi\\Mcash": "src/"
+            "DavidNgugi\\Mcash\\": "src/"
         }
     }
 }
