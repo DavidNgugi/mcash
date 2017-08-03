@@ -1,0 +1,22 @@
+{
+    "name": "davidngugi/mcash",
+    "description": "A  php package for the Mpesa Daraja REST API",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Ngugi",
+            "email": "ndavidngugi@gmail.com",
+            "name" : "Odhiambo Dormnic",
+            "email" : "ayimdomnic@gmail.com",
+        }
+    ],
+    
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "DavidNgugi\\Mcash": "src/"
+        }
+    },
+}
