@@ -6,17 +6,18 @@
     "authors": [
         {
             "name": "David Ngugi",
-            "email": "ndavidngugi@gmail.com",
-            "name" : "Odhiambo Dormnic",
-            "email" : "ayimdomnic@gmail.com",
+            "email": "ndavidngugi@gmail.com"
+            
         }
     ],
-    
-    "require": {},
+
+    "require": {
+        "php": "^7.1"
+    },
 
     "autoload": {
         "psr-4": {
             "DavidNgugi\\Mcash": "src/"
         }
-    },
+    }
 }
