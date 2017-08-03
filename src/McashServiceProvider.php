@@ -4,7 +4,7 @@
 namespace Mcash\Mpesa;
 
 use Illuminate\Support\ServiceProvider;
-use Mcash\Mpesa\Contracts\ConfigurationStore;
+use Mcash\Mpesa\Data\LoadConfig;
 
 /**
  * Class McashServiceProvider

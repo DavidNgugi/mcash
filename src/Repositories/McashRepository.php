@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Mcash\Mpesa;
+namespace Mcash\Mpesa\Repositories;
 
-use Mcash\Mpesa\LoadConfig;
+use Mcash\Mpesa\Data\LoadConfig;
 
 
 /**
@@ -157,6 +157,7 @@ class McashRepository
 		$this->consumer_key = $this->loader->get('mcash.consumer_key');
 		$this->sandbox = $this->loader->get('mcash.sandbox');
 		$this->acess_token = $this->loader->get('mcash.acess_token');
+
 	}
 
 

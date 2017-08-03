@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcash\Mpesa;
+namespace Mcash\Mpesa\Data;
 
 /**
  * Loader Interface
@@ -20,6 +20,6 @@ interface LoadConfig
 	 * 
 	 * @return mixed
 	*/ 
-	public function get($key, $default=null);
+	public function get($key, $default = null);
 
 }
