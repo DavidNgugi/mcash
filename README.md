@@ -1,2 +1,2 @@
 # mCash
-A PHP package for the M-Pesa Daraja REST API
+A PHP package for the latest Safaricom M-Pesa Daraja REST API

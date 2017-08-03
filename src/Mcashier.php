@@ -15,12 +15,14 @@ class Mcashier
 {
 	
 	/**
-	 * 
+	 * Setup
 	*/
 	public function __construct(argument)
 	{
-		
+		return $this;
 	}
+
+
 }
 
 
