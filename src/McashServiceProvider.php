@@ -1,12 +1,20 @@
 <?php
 
-namespace DavidNgungi\Mcash;
+
+namespace Mcash\Mpesa;
 
 use Illuminate\Support\ServiceProvider;
+use Mcash\Mpesa\Contracts\ConfigurationStore;
 
+/**
+ * Class McashServiceProvider
+ *
+ * @category PHP
+ * @package  Mcash\Mpesa
+ * @author   David Ngugi <david@davidngugi.com>
+*/
 class McashServiceProvider extends ServiceProvider
 {
-
     /**
      * Bootstrap the application services.
      *
@@ -14,6 +22,11 @@ class McashServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+
+        // TODO Publish our configs, routes, controllers, events etc etc if any
+        $this->publishes([
+            __DIR__.'/Config/mcash.php' => config_path('mcash.php')
+        ]);
 
     }
 
@@ -24,10 +37,8 @@ class McashServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(Mcash::class, function () {
-            return new Mcash();
-        });
 
-        $this->app->alias(Mcash::class, 'mcash');
+        // Bind our classes here
     }
 }
+

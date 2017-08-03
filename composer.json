@@ -1,23 +1,37 @@
 {
-    "name": "davidngugi/mcash",
-    "description": "A  php package for the Mpesa Daraja REST API",
-    "type": "package",
-    "license": "MIT",
-    "authors": [
+
+	"name": "mCash",
+  	"description": "A PHP package for the M-Pesa Daraja REST API",
+  	"keywords": [
+    	"mcash",
+    	"mpesa",
+    	"safaricom",
+    	"api",
+    	"mobile",
+    	"money"
+  	],
+  	"authors": [
         {
             "name": "David Ngugi",
-            "email": "ndavidngugi@gmail.com"
-            
+            "email": "david@davidngugi.com"
         }
     ],
-
-    "require": {
-        "guzzlehttp/guzzle": "^6.3"
+  	"license": "MIT",
+  	"type": "package",
+    	"require": {
+    		"php": ">=5.5.9",
+    		"illuminate/support": "~5.0",
+        	"guzzlehttp/guzzle": "^6.3"
     },
-
     "autoload": {
         "psr-4": {
-            "DavidNgugi\\Mcash\\": "src/"
+            "Mcash\\Mpesa\\" : "src"
         }
-    }
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master",
+        "phpunit/phpunit": "4.*"
+    },
+
+    "minimum-stability": "dev"
 }
