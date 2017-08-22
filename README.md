@@ -9,4 +9,9 @@ Comming Soon
 
 # Authors
 
+* David Ngugi
+* Ayim Domnic
+
 # Demo Implementation
+
+Coming Soon
