@@ -1,14 +1,14 @@
 <?php
 
-namespace Mcash\Mpesa\Data;
+namespace Mcash\Pesa\Data;
 
 /**
  * Logable Trait
  *
  *@category PHP
- *@package  Mcash\Mpesa
+ *@package  Mcash\Pesa
  *@author   Ayim Domnic <ayimdomnic@gmail.com>
-*/ 
+*/
 interface Loggable
 {
 	/**
@@ -16,8 +16,8 @@ interface Loggable
 	 *
 	 *@param $id
 	 *@return mixed
-	*/ 
+	*/
 
 	public function getTransactionDetails($id);
-	
+
 }

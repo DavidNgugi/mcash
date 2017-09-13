@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcash\Mpesa\Data;
+namespace Mcash\Pesa\Data;
 
 use Ramsey\Uuid\Uuid;
 use Illuminate\Database\Eloquent\Model;
@@ -10,12 +10,12 @@ use Illuminate\Database\Eloquent\ModelNotFoundException;
  * Uuid Trait
  *
  *@category PHP
- *@package  Mcash\Mpesa
+ *@package  Mcash\Pesa
  *@author   Ayim Domnic <ayimdomnic@gmail.com>
-*/ 
+*/
 trait uuidTrait
 {
-  protected static function boot() 
+  protected static function boot()
   {
 
     parent::boot();
@@ -38,7 +38,7 @@ trait uuidTrait
    * @param string Uuid
    *
    */
-  public function scopeUuid($query, $uuid, $first = TRUE) 
+  public function scopeUuid($query, $uuid, $first = TRUE)
   {
 
     if (!is_string($uuid) || !Uuid::isValid($uuid)) {

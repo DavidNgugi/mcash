@@ -14,24 +14,39 @@
         {
             "name": "David Ngugi",
             "email": "david@davidngugi.com"
-        }
+        },
+				{
+					"name": "Ayim Domnic",
+					"email": "ayimdomnic@gmail.com"
+				}
     ],
   	"license": "MIT",
   	"type": "package",
     	"require": {
-    		"php": ">=5.5.9",
-    		"illuminate/support": "~5.0",
+    		"php": ">=^7.1",
+    		"illuminate/support": "~5.5.x",
         	"guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
         "psr-4": {
-            "Mcash\\Mpesa\\" : "src"
+            "Mcash\\Pesa\\" : "src"
         }
     },
     "require-dev": {
         "mockery/mockery": "dev-master",
         "phpunit/phpunit": "4.*"
     },
+		"minimum-stability": "dev",
+		"prefer-stable": true,
+		"extra": {
+			"laravel": {
+				"providers": [
+            "Mcash\\Pesa\\McashServiceProvider"
+        ],
+        "aliases": {
+            "Mcash": "Mcash\\Pesa\\Facades\\Mcash"
+        }
+			}
+		},
 
-    "minimum-stability": "dev"
 }

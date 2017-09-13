@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Mcash\Mpesa;
+namespace Mcash\Pesa;
 
 use Illuminate\Support\ServiceProvider;
-use Mcash\Mpesa\Data\LoadConfig;
+use Mcash\Pesa\Data\LoadConfig;
 
 /**
  * Class McashServiceProvider
  *
  * @category PHP
- * @package  Mcash\Mpesa
+ * @package  Mcash\Pesa
  * @author   David Ngugi <david@davidngugi.com>
 */
 class McashServiceProvider extends ServiceProvider
@@ -41,4 +41,3 @@ class McashServiceProvider extends ServiceProvider
         // Bind our classes here
     }
 }
-

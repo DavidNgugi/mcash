@@ -1,16 +1,16 @@
 <?php
 
-namespace Mcash\Mpesa\Models;
+namespace Mcash\Pesa\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Mcash\Mpesa\Data\uuidTrait;
+use Mcash\Pesa\Data\uuidTrait;
 
 /**
  *	Account Model
  *@category PHP
- *@package  Mcash\Mpesa
+ *@package  Mcash\Pesa
  *@author   Ayim Domnic <ayimdomnic@gmail.com>
-*/ 
+*/
 class Account extends Model
 {
 

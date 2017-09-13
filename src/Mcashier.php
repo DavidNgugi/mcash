@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcash\Mpesa;
+namespace Mcash\Pesa;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,12 +8,12 @@ use Illuminate\Support\Facades\Facade;
  * Class Mcash
  *
  * @category PHP
- * @package  Mcash\Mpesa
+ * @package  Mcash\Pesa
  * @author   David Ngugi <david@davidngugi.com>
 */
 class Mcashier
 {
-	
+
 	/**
 	 * Setup
 	*/
@@ -24,5 +24,3 @@ class Mcashier
 
 
 }
-
-

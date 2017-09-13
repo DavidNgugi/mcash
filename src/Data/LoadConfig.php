@@ -1,25 +1,25 @@
 <?php
 
-namespace Mcash\Mpesa\Data;
+namespace Mcash\Pesa\Data;
 
 /**
  * Loader Interface
- * 
+ *
  * @category PHP
- * @package  Mcash\Mpesa
+ * @package  Mcash\Pesa
  * @author   Ayim Domnic <ayimdomnic@gmail.com>
-*/ 
+*/
 interface LoadConfig
 {
 
 	/**
 	 * Get the configuration value to be stored from the Config
-	 * 
+	 *
 	 * @param $key
 	 * @param $default
-	 * 
+	 *
 	 * @return mixed
-	*/ 
+	*/
 	public function get($key, $default = null);
 
 }

@@ -1,29 +1,29 @@
 <?php
 
-namespace Mcash\Mpesa;
+namespace Mcash\Pesa;
 
-use Mcash\Mpesa\Data\LoadConfig;
-use Mcash\Mpesa\Repositories\McashRepository;
+use Mcash\Pesa\Data\LoadConfig;
+use Mcash\Pesa\Repositories\McashRepository;
 
 
 /**
  * @category PHP
- * @package  Mcash\Mpesa
+ * @package  Mcash\Pesa
  * @author   Ayim Domnic <ayimdomnic@gmail.com>
  */
 class Configuration implements LoadConfig
 {
 	/**
 	 * @var McashRepository
-	 * 
-	*/ 
+	 *
+	*/
 	private $repository;
 
 	/**
-	 * Laravel Configuration Constructor 
+	 * Laravel Configuration Constructor
 	 * @param McashRepossitory $repository
 	 * @return mixed
-	*/ 
+	*/
 	public function __construct(McashRepository $repository)
 	{
 		$this->repository = $repository;
