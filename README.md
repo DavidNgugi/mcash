@@ -3,7 +3,7 @@ A PHP package for the latest Safaricom M-Pesa Daraja REST API
 
 # Documentation
 
-Comming Soon
+Coming Soon
 
 # Contribution Guide
 
