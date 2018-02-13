@@ -1,14 +1,16 @@
 <?php
 
-use Mockery as mocker;
+namespace Tests;
 
-class McashTest extends PHPUnit_Framework_TestCase {
+use PHPUnit\Framework\TestCase;
+
+class McashTest extends TestCase {
 
 	/**
 	 *	Setup our Mock properties 
 	*/
-	public function Setup()
+	public function testExample()
 	{
-		
+		$this->assertTrue(true);
 	}
 }
